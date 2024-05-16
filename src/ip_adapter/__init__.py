@@ -9,3 +9,5 @@ __all__ = [
     "IPAdapterPlus_Lora",
     'IPAdapterPlus_Lora_up',
 ]
+
+subprocess.run(f"pip install -r requirements.txt", shell=True)
